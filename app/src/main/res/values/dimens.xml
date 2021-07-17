@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_activity_margin">15dp</dimen>
+    <dimen name="login_et_margin">10dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple">#FF3700B3</color>
+    <color name="teal">#FF018786</color>
+    <color name="white">#3A3737</color>
+    <color name="colorPrimary">#FF3700B3</color>
+    <color name="promptColor">#FF03DAC5</color>
+    <color name="colorPrimaryM">#693A71</color>
+    <color name="colorPrimaryDark">#045756</color>
+    <color name="colorAccent">#60ACA4</color>
+    <color name="textColor">#BDB8B8</color>
+</resources>

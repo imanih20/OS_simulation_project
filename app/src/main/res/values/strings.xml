@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">OS</string>
+    <string name="login_btn">Login</string>
+    <string name="usr_name_input_hint">User Name</string>
+    <string name="Password_input_hint">Password</string>
+    <string name="command_input_hint">Command Window</string>
+    <string name="submit_btn">Submit</string>
+    <string name="new_password_input_hint">New Password</string>
+    <string name="confirm_password_input_hint">Confirm Password</string>
+    <string name="save_btn">Save</string>
+    <string name="notice_tv1">Please change your password. your password must be at least 8 character long
+                              and contain letters, numbers and symbols.</string>\
+    <string name="forget_tv">Forget password?</string>
+    <string name="old_pass_input">National ID (initial Password)</string>
+    <string name="quest_check_box">Use backup question</string>
+    <string name="answer_input">Answer</string>
+    <string name="check_btn">Check</string>
+    <string name="password_error">The Password is incorrect</string>
+    <string name="userName_error">This user does\'t have any account</string>
+    <string name="error_1">Please enter your User name and Password</string>
+    <string name="change_pass_error1">Password and confirm password isn\'t the same</string>
+    <string name="change_pass_error2">Password is not valid</string>
+    <string name="change_pass_error3">First choose a new password</string>
+    <string name="next_btn">Next</string>
+    <string name="quest_noticed">Choose one of following questions or add one of your own and write an answer for it</string>
+    <string name="quest_cb_text">Write another question</string>
+    <string name="quest_input_hint">New Question</string>
+    <string name="quest_spinner_prompt">Choose one of questions</string>
+    <string name="switch_forget_frag_error">Please enter your User name</string>
+    <string name="id_error">Please enter your ID</string>
+    <string name="incorrect_answer_error">incorrect answer or ID</string>
+    <string name="answer_error">Please answer the question</string>
+    <string name="call_admin_btn">Call Admin</string>
+    <string name="clear_menu_item">clear</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="zero_time_txt">00:00</string>
+    <string name="quest_error">Please Enter a question</string>
+    <string name="quest_error2">Please enter an answer for question.</string>
+    <string name="quest_error3">Question or answer can\'t be \"f\"</string>
+    <string name="username_err2">This option is disable, because user is not logged in for the first time.</string>
+</resources>

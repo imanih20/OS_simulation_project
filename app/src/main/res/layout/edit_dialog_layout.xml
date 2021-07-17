@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layoutDirection="ltr"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+
+    <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btn_layout"
+            app:layout_constraintTop_toTopOf="parent"
+            android:lines="25"
+            android:padding="10dp"
+            android:gravity="top"
+            android:textDirection="ltr"
+            android:layoutDirection="ltr"
+            app:layout_constraintBottom_toTopOf="@id/btn_layout"
+            android:id="@+id/edit_pane"
+            android:inputType="textMultiLine"
+            android:textColor="@color/textColor"
+            android:background="@drawable/dialog_bg"
+            android:textSize="16sp"
+            />
+    <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            app:layout_constraintTop_toBottomOf="@id/edit_pane"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_layout"
+            android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:textAllCaps="false"
+                android:id="@+id/cancel_btn"
+                android:textColor="@android:color/white"
+                android:enabled="true"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/btn_bg"
+                android:text="@string/cancel_btn"/>
+        <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:enabled="true"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"
+                android:id="@+id/save_btn"
+                android:background="@drawable/btn_bg2"
+                android:text="@string/save_btn"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="quest_spinner_items">
+        <item>What is your first phone number?</item>
+        <item>What is your favorite person\'s birthday?</item>
+        <item>What is your favorite person\'s phone number?</item>
+        <item>What is your favorite person\'s ID?</item>
+        <item>What is your favorite sport team?</item>
+    </string-array>
+</resources>
